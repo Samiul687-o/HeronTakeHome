@@ -89,6 +89,8 @@ def main(file_path: str):
     """
     Main function to load transactions, identify recurring ones, and log the result.
 
+    Used only for testing purposes.
+
     """
     transactions = load_transactions_from_file(file_path)
     if not transactions:
